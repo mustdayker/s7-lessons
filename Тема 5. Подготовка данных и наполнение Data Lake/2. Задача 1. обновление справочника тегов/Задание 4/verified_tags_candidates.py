@@ -16,8 +16,8 @@ import datetime
 
 def main():
     date = sys.argv[1]
-    depth  = sys.argv[2]
-    user_limit = sys.argv[3]
+    depth  = int(sys.argv[2])
+    user_limit = int(sys.argv[3])
     data_path = sys.argv[4]
     tags_verified_path = sys.argv[5]
     target_path = sys.argv[6] 
